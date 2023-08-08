@@ -13,11 +13,11 @@ function savePost(){
 }
 }
 function cleanFields(){
-    document.getElementById("tittle").value = " ";
-    document.getElementById("category").value = " ";
-    document.getElementById("resume").value = " ";
-    document.getElementById("author").value = " ";
-    document.getElementById("date").value = " ";
+    document.getElementById("tittle").value = "";
+    document.getElementById("category").value = "";
+    document.getElementById("resume").value = "";
+    document.getElementById("author").value = "";
+    document.getElementById("date").value = "";
 }
 function storePost(tittle, category, resume, author, date){
     const post = {
