@@ -4,25 +4,31 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f0f0f0;
+    background: url(../images/Kalix-Wallpaper.png) ;
+    background-size:2690px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+img{
+    opacity: 0.5;
 }
 h1{
-    color: #d30000;
-    text-align: center;
+    color: #fff;
+    text-align: left;
 }
 main{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 #postForm{
     max-width: 500px;
     width: 100%;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #322f2f;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #646161;
 }
 labe, input,textarea{
     display: block;
@@ -33,7 +39,7 @@ labe, input,textarea{
     resize: none;
 }
 button{
-    background-color: #d30000;
+    background-color: purple;
     color: #fff;
     cursor: pointer;
     width: 100%;
@@ -41,7 +47,7 @@ button{
     border-radius: 8px;
 }
 button:hover{
-    background-color: #a00000;
+    background-color: darkmagenta;
     transition: 0.3s;
 }
 itemPost{
@@ -78,4 +84,7 @@ transition: 0.3s;
 }
 .hidden{
     display: none;
+}
+label{
+    color: #fff;
 }
