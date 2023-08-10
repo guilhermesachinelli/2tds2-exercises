@@ -78,4 +78,4 @@ class Pizza{
 const myPizza = new Pizza('integral', 'tomato', 'pepperoni', 'mozzarela');
 console.log(myPizza.getDescription());
 let timePizza = myPizza.getTimerBase() + myPizza.getTimerTomato() + myPizza.getTimerToppings() + myPizza.getTimerCheese();
-console.log('Tempo de assar a pizza é de' + timePizza)
+console.log('Tempo de assar a pizza é de' +" "+ timePizza + " " + 'minutos')
